@@ -23,7 +23,7 @@ def elbow():
         kmeans.fit(x)
         wcss.append(kmeans.inertia_)
     markers['elbow'] = wcss 
-    return render_template('datagrafik.html',markers=markers )
+    return render_template('elbow.html',markers=markers )
 
 @app.route('/chart')
 def chart():   
