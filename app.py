@@ -12,7 +12,7 @@ def home():
 def data():  
     dataset = pd.read_csv("bdns2.csv")
     return render_template('data.html', tables=[dataset.to_html(classes='table',border = 0, header="true")], titles=[''])
-@app.route('/datagrafik')
+@app.route('/elbow')
 def elbow():   
     markers={}
     dataset = pd.read_csv("bdns2.csv")
