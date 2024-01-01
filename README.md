@@ -13,3 +13,6 @@ pip install -r requirements.txt
 python app.py
 ```
 5.open http://localhost:8080 in your browser
+
+nb : jika ada masalah  pada pip install -r requirements.txt bisa menggunakan versi python 3.9.0
+https://www.python.org/downloads/release/python-390/
