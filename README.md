@@ -8,6 +8,18 @@ Contoh sederhana dalam menerapkan Algorima Kmeans Pada Python yang digabung deng
 ```bash
 pip install -r requirements.txt
 ```
+install scikit-learn
+```bash
+pip install scikit-learn
+```
+install Flask
+```bash
+pip install Flask
+```
+install pandas
+```bash
+pip install pandas
+```
 4.Run python app.py
 ```bash
 python app.py
